@@ -292,3 +292,12 @@
 2020-11-07 16:45:35,637 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:57fc02ad-cdba-407a-8291-b75f1fcf2902,inMem:92dae829-ae3b-4883-9f4d-f5a6a3b5129b,outMem:c33f746f-7868-4e65-a0a3-a657ee1d920d, WebRtc:True,Enable GPU:False
 2020-11-07 16:46:01,272 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type '83886080 MessageLibrary.EventPacket'.
 2020-11-07 16:46:57,255 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:50:55,868 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:50:55,912 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:d67dc08e-eb77-4c17-b80c-5247f3f55bee,inMem:ad24a56b-65fb-4337-8f66-6f711457f0b5,outMem:c633ad1d-7fe2-4131-a533-4702b911d607, WebRtc:True,Enable GPU:False
+2020-11-07 16:51:35,742 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:51:54,118 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:51:54,160 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:c96edbef-7067-45fe-abdb-f4697c60952d,inMem:e97148b8-3443-41e1-95e8-56cf69cb4286,outMem:32983e86-66d3-46cc-9dcb-4a365f96d630, WebRtc:True,Enable GPU:False
+2020-11-07 16:52:38,893 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:52:46,100 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:52:46,142 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:efb7587a-b590-4aa4-88b8-73836d54e90b,inMem:63d71602-d1ee-4c18-8495-cdfeef1d142e,outMem:437d8b15-fae3-4c29-9edb-e3b8ddc13bb0, WebRtc:True,Enable GPU:False
+2020-11-07 16:53:12,568 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
