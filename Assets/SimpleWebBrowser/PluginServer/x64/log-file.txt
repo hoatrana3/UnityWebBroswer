@@ -177,3 +177,118 @@
 2020-11-07 10:58:07,009 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:9d89954c-0b17-4ff5-a771-e5420a22935d,inMem:404a3bda-b928-4001-be42-1a6745142d7b,outMem:aded1b55-8b23-4d67-9e01-fae0ea6feb85, WebRtc:True,Enable GPU:False
 2020-11-07 10:59:07,808 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FF] at index 12 from specified code page to Unicode.
 2020-11-07 10:59:27,196 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:15:32,332 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:15:32,382 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:407f7154-a79a-44aa-82a4-11964c27ebfe,inMem:21d4e92f-83ad-46fc-8be7-f10668139db3,outMem:f6e92929-1600-4e11-b6c4-6e4a0f204d8d, WebRtc:True,Enable GPU:False
+2020-11-07 14:15:42,703 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:22:21,870 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:22:21,919 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:2c7d2b9f-2284-4c96-98df-0d8328f1b23c,inMem:4ba8c199-81a5-45a5-a0b2-b1c0297d2c47,outMem:8b035d6d-dbd7-46f3-bdac-2406d3e2765e, WebRtc:True,Enable GPU:False
+2020-11-07 14:22:48,085 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:30:28,618 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:30:28,667 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:13c22162-838a-4630-8f27-44143b4a0bfb,inMem:a7e9bc65-a5fa-49e1-a47c-570a60ab8fe1,outMem:eac49066-27cd-4f63-993e-b7087faa75f7, WebRtc:True,Enable GPU:False
+2020-11-07 14:31:08,657 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:46:10,122 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:46:10,177 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:a5d9da0a-d959-44d9-9092-b3a7f8bdb40c,inMem:65021751-a105-4c1b-8307-46474cd2ef1c,outMem:df7d82b4-07a0-4fc4-b2a4-851ff628bfcc, WebRtc:True,Enable GPU:False
+2020-11-07 14:46:47,559 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:47:58,529 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:47:58,573 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:ca7a1a87-4576-4fb7-861a-7a368fc1cd95,inMem:4e391c6d-b89a-4564-ad37-783b879f1937,outMem:b929b13a-e6e0-44b3-919c-6b6f7b92fa4b, WebRtc:True,Enable GPU:False
+2020-11-07 14:48:01,991 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:48:43,638 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:48:43,682 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:9a9e4474-bfde-4f7f-aaee-39a7620cefa7,inMem:16a18efe-bc27-4412-bc22-f99acbc3dcca,outMem:b4d92248-aab3-47fb-ba4d-51c3ada0b010, WebRtc:True,Enable GPU:False
+2020-11-07 14:48:48,631 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:48:57,228 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:48:57,271 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:a7b7ed8f-685f-46f1-ab29-7243ec2b619c,inMem:c2a39ab5-7c94-47a9-ac98-9d060214ad05,outMem:9c51931c-edbc-4b78-9466-1b5ba141b3a3, WebRtc:True,Enable GPU:False
+2020-11-07 14:49:20,166 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:49:44,656 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:49:44,702 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:edb3478f-4121-4fb6-9ce0-5f45e9d6dfbd,inMem:6b59bbab-6dbc-4a01-8d9e-b2232e69adc6,outMem:f88be13f-1687-4175-b6ee-bed4c1531c87, WebRtc:True,Enable GPU:False
+2020-11-07 14:50:16,723 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:51:13,710 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:51:13,754 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:c7e19fab-33f1-4a29-90e4-fa22fcc0c91e,inMem:48819e4c-0b99-40eb-905f-5c9038c21e51,outMem:802bc8be-a089-40fd-be04-8255cfca939d, WebRtc:True,Enable GPU:False
+2020-11-07 14:51:16,054 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:51:25,796 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:51:25,849 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:be18f25b-4723-429f-8fb3-89028382d949,inMem:03d33b1d-2cff-405b-844a-165b567db509,outMem:1d53874f-96ee-4be4-a47b-b0d6a395c067, WebRtc:True,Enable GPU:False
+2020-11-07 14:51:30,769 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:52:35,185 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:52:35,234 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:3c7d8807-95e9-4201-9c65-285e92bbc8ac,inMem:575f9f2d-30af-4023-a5ba-d0c124b36657,outMem:7bcbdee2-7104-4cc2-879f-3103b444b1cc, WebRtc:True,Enable GPU:False
+2020-11-07 14:52:46,614 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:53:30,871 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:53:30,924 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:87fc0e0c-d7fe-4a1f-ac1a-c051e142917e,inMem:ddd265f6-e651-425a-983f-60bdc0e945cb,outMem:2f7fd4cd-8421-4799-a947-120b3db06a2a, WebRtc:True,Enable GPU:False
+2020-11-07 14:53:38,775 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 14:58:43,899 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 14:58:43,943 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:3b064511-2b78-4983-96a2-527629ba1d67,inMem:7118803a-fc26-4f23-9b42-46b95e7039da,outMem:ac445f5f-46b5-4661-b909-152cea1e3b26, WebRtc:True,Enable GPU:False
+2020-11-07 14:59:35,525 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 15:00:06,221 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 15:00:06,264 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:f8b8c1cd-ddfa-4404-9770-44af3c855818,inMem:a0f71506-614b-49a5-af13-bfd6a96a35b5,outMem:c752c719-02db-41fd-a1ec-6c738f2a5d50, WebRtc:True,Enable GPU:False
+2020-11-07 15:01:08,960 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type '83886080 MessageLibrary.EventPacket'.
+2020-11-07 15:01:45,691 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 15:01:45,691 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 15:09:42,763 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 15:09:42,807 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:9da68422-3aea-488f-86fe-c95a050a9533,inMem:42171ca0-a4bd-4434-a716-8b4b971fbdf5,outMem:d070af32-869e-4413-ac9e-1b276fe77771, WebRtc:True,Enable GPU:False
+2020-11-07 15:10:04,962 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 15:10:36,373 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 15:10:36,418 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:cd212fee-6fab-4ab2-a333-a40382dc7ffa,inMem:9755675f-11bc-4591-86d4-b46c2f216682,outMem:9f566101-408d-421d-876c-6ab2449206c3, WebRtc:True,Enable GPU:False
+2020-11-07 15:11:07,238 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FF] at index 12 from specified code page to Unicode.
+2020-11-07 15:11:22,043 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 15:11:22,043 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 15:59:15,473 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 15:59:15,519 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:f5fa17da-8fd0-44a7-bc37-00c8a21f38e9,inMem:7affb8c6-3f84-4524-abe2-affafb796afd,outMem:c69f9e3b-12ff-43f9-892b-dcdc79e36b9c, WebRtc:True,Enable GPU:False
+2020-11-07 15:59:28,849 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 15:59:32,771 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 15:59:32,816 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:241ad227-35fc-49bc-a5b9-503fa88d5007,inMem:674fbf7d-451c-413a-9c8e-79499be6a313,outMem:49b83056-fe15-447c-9169-a67d2105391a, WebRtc:True,Enable GPU:False
+2020-11-07 16:00:16,858 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 16:00:16,858 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:06:29,791 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:06:29,837 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:0110dfd7-7fdc-4303-b2ed-ba59b142c728,inMem:e53cebf0-c3bf-4d68-867c-5216d576be14,outMem:aacbe686-cda8-403f-b8df-bacbfb08bd29, WebRtc:True,Enable GPU:False
+2020-11-07 16:06:34,785 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FF] at index 12 from specified code page to Unicode.
+2020-11-07 16:07:00,116 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 16:07:00,116 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:09:50,145 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:09:50,196 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:d4da42cb-0c90-4497-9385-dbb604f80913,inMem:439c0e2b-7650-4981-b96f-1f4ad0a82dc3,outMem:8f881b2f-ce43-4a90-9fd8-19e539121bf9, WebRtc:True,Enable GPU:False
+2020-11-07 16:10:38,252 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:11:40,023 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:11:40,079 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:9168e79d-0f60-4a6c-90a5-b34561db7a46,inMem:6f10bb89-eec7-446e-a64a-65d5dbd23a2a,outMem:d6d86ed7-9230-4a96-b43a-e6416f7bba4a, WebRtc:True,Enable GPU:False
+2020-11-07 16:11:43,751 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:11:57,045 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:11:57,088 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:2ae65e6c-9c3d-4844-959f-a8dc3e0d8f1a,inMem:5e300950-e165-45ed-939c-5a48afc7953d,outMem:39bf1e2b-8d84-4869-a63b-1c290df75dfc, WebRtc:True,Enable GPU:False
+2020-11-07 16:12:50,288 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 16:12:50,288 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:15:44,114 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:15:44,159 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:82c8bcd1-1f54-4ea2-93ee-3bc0e40f480b,inMem:9641b086-fa75-4b02-ac05-918cbf8622ae,outMem:60f570c5-fd99-4939-ac97-acf65531b79c, WebRtc:True,Enable GPU:False
+2020-11-07 16:16:06,125 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:18:37,163 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:18:37,212 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:3f4567de-5c85-4147-a7f6-a3054722b2f9,inMem:bf7cbba6-14cc-462d-b879-247168372bc9,outMem:2c001157-b73e-4d18-83b9-cb602bfa0faf, WebRtc:True,Enable GPU:False
+2020-11-07 16:18:58,891 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:19:50,410 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:19:50,471 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:4b88278f-666a-43e3-b8e4-97b7350a9d50,inMem:11871ebb-994a-4b7a-8562-31c89c4ed1ec,outMem:55d7a7ea-136f-490b-be79-b973f8609605, WebRtc:True,Enable GPU:False
+2020-11-07 16:19:56,197 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [CE] at index 2 from specified code page to Unicode.
+2020-11-07 16:20:18,777 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FF] at index 12 from specified code page to Unicode.
+2020-11-07 16:20:54,054 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FB] at index 11 from specified code page to Unicode.
+2020-11-07 16:20:58,491 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FF] at index 12 from specified code page to Unicode.
+2020-11-07 16:21:16,279 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 16:21:16,279 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:23:05,197 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:23:05,244 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:f670173c-eac5-439a-a1c4-b1fa8030f3ca,inMem:31eac32b-846b-4dc5-aa6f-b2ba9321fe04,outMem:1fb58960-d635-4396-9f3d-61d5c1927fa7, WebRtc:True,Enable GPU:False
+2020-11-07 16:23:24,497 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Invalid type code in stream 'Invalid'.
+2020-11-07 16:23:29,066 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:29:29,427 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:29:29,474 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:4607e17a-5821-4afe-bc67-8caea7e46b2f,inMem:5d9b15c2-3f78-4003-9cb9-68b8f728bd84,outMem:a5325516-77c1-4824-b1de-e9c55437a9c5, WebRtc:True,Enable GPU:False
+2020-11-07 16:30:14,395 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type 'MessageLibrary.BrowserEventType'.
+2020-11-07 16:30:39,787 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-07 16:30:39,787 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:38:31,613 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:38:31,658 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:eae26c38-5bb0-4cb7-8c5f-46398929f965,inMem:27a291fb-bca4-41a8-b72f-2ea91a27c60d,outMem:791c4636-21a9-4380-9a97-b7057afa7a5c, WebRtc:True,Enable GPU:False
+2020-11-07 16:38:50,774 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:39:07,906 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:39:07,950 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:e5491d60-adab-4241-be2c-2531dbafac4c,inMem:98b504d2-1363-4968-aac7-c61f0ebb1a4c,outMem:fb16041a-7a6b-4c2c-a00c-b59b85e3273d, WebRtc:True,Enable GPU:False
+2020-11-07 16:39:25,609 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:40:17,228 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:40:17,272 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:8982a974-47c3-4383-bd9c-3ef6b10b8120,inMem:87d39262-fdb6-4306-bc6f-35dd03ed39cf,outMem:6cebd800-a42c-48de-8be1-8c9161cf6783, WebRtc:True,Enable GPU:False
+2020-11-07 16:40:18,883 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:Unable to translate bytes [FA] at index 4 from specified code page to Unicode.
+2020-11-07 16:40:27,874 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type 'MessageLibrary.GenericEvent'.
+2020-11-07 16:40:36,755 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:41:13,894 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:41:13,939 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:f4be1ada-5b66-4de5-87e8-0d62fc23bbf0,inMem:dc743daf-eae1-41de-917e-2eb702eab3ae,outMem:32898309-684c-4043-8a92-a6ad3a955257, WebRtc:True,Enable GPU:False
+2020-11-07 16:41:26,408 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-07 16:45:35,587 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-07 16:45:35,637 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:57fc02ad-cdba-407a-8291-b75f1fcf2902,inMem:92dae829-ae3b-4883-9f4d-f5a6a3b5129b,outMem:c33f746f-7868-4e65-a0a3-a657ee1d920d, WebRtc:True,Enable GPU:False
+2020-11-07 16:46:01,272 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type '83886080 MessageLibrary.EventPacket'.
+2020-11-07 16:46:57,255 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
