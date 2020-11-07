@@ -8,3 +8,5 @@
 [1101/201347.433:WARNING:quota_manager.cc(1833)] Create directory failed for path
 [1101/201354.005:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
 [1101/201356.421:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[1107/104420.240:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 47
+[1107/105113.356:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 95
