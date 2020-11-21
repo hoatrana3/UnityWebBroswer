@@ -330,3 +330,35 @@
 2020-11-20 15:08:18,082 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
 2020-11-20 15:08:18,129 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:b4dd90e8-28ae-43e4-a383-5e26278f57a3,inMem:fe15dc59-9f14-4394-8fc0-72f506b2d35a,outMem:47cd7184-dde4-4f82-b691-a3a8808606bf, WebRtc:True,Enable GPU:False
 2020-11-20 15:08:32,147 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 13:27:34,970 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 13:27:35,093 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:187f6d8d-de61-4a43-959a-e0c212dc5031,inMem:02543ea5-2d6c-4004-8aab-5f7422d3b3ef,outMem:bc3d3fad-e641-4299-b61e-eb271f4c7209, WebRtc:True,Enable GPU:False
+2020-11-21 13:29:46,613 [1] ERROR SharedPluginServer.Interprocess.SharedCommServer [(null)] - Serialization exception,length=10000:No assembly ID for object type '83886080 MessageLibrary.EventPacket'.
+2020-11-21 13:29:58,953 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:29:56,081 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:29:56,128 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:e69d2f6c-e3c8-4b04-bbe3-94e2f7ffd757,inMem:5d84451b-ccba-412e-830c-89f9b4026c5d,outMem:0a4d60e9-31ca-4eca-bab9-3a29134db237, WebRtc:True,Enable GPU:False
+2020-11-21 14:30:02,486 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:30:32,662 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:30:32,721 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:66dd2ad7-08b6-4afe-ba77-33289fe94fec,inMem:c2adea25-7039-4970-8325-bd20e3bee228,outMem:b365fbf9-5baf-4ef1-aeb1-8b366986d095, WebRtc:True,Enable GPU:False
+2020-11-21 14:30:58,943 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:31:46,626 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:31:46,671 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:61a9bf07-7845-428d-aa3c-4cf84b3d6837,inMem:d93c9f40-9805-4613-af40-30bd4ef923d7,outMem:be93eca4-7f25-450d-8f12-18213be5235e, WebRtc:True,Enable GPU:False
+2020-11-21 14:32:17,098 [1] INFO  SharedPluginServer.App [(null)] - Exiting by timer,timeout:10000
+2020-11-21 14:32:17,099 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:38:26,403 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:38:26,465 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:e68b14bf-cb98-4755-974b-2d2cfb965edd,inMem:636e102d-4cd1-4b42-907a-bc388cca8665,outMem:6f71ce49-0296-4dca-b8c8-4b80b973a96c, WebRtc:True,Enable GPU:False
+2020-11-21 14:39:01,977 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:42:45,826 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:42:45,872 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:2efe02c1-cb4e-4b8d-abb7-b61e92d55e6d,inMem:34276327-2869-47c2-9a9c-fb0920b029b2,outMem:8eaaebea-a03f-4e47-8ac7-862bda2ab913, WebRtc:True,Enable GPU:False
+2020-11-21 14:43:01,665 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:43:58,185 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:43:58,240 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:4a9823c2-19d8-4ca9-a995-d0cf9300ef0b,inMem:90f7321d-b200-4e7a-af97-8b55358f0a6e,outMem:36668eaa-b6da-48b8-a1f5-a3d9b4c3c3bc, WebRtc:True,Enable GPU:False
+2020-11-21 14:44:20,332 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:51:14,139 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:51:14,190 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:0818e5f2-c8bc-4921-b32f-0e1fca9f28cb,inMem:b162a001-006b-40d8-9532-f47ef4c4b09b,outMem:6eebd589-81d1-42d8-a3d0-eab54572614a, WebRtc:True,Enable GPU:False
+2020-11-21 14:51:27,159 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:52:29,716 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:52:29,760 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:0dc76464-685b-4c1c-a10b-d0fff6d6a0fe,inMem:7c454203-78c9-473f-8ac4-dadf23be18cf,outMem:4a755615-d3ee-4005-b1f0-3b92acabf26a, WebRtc:True,Enable GPU:False
+2020-11-21 14:53:10,700 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2020-11-21 14:53:39,528 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2020-11-21 14:53:39,575 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1280,height:720,url:http://www.google.com,memfile:44704e70-ab0d-4bbc-8eee-fc3483f199de,inMem:a31edfb9-7d3c-4575-834c-324f8c25b7b4,outMem:5b5e255e-2c03-4f8d-a791-936661d74957, WebRtc:True,Enable GPU:False
+2020-11-21 14:53:50,982 [1] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========

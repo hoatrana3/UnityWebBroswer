@@ -268,7 +268,6 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
         {
             // MainUrlInput.isFocused
             _mainEngine.SendNavigateEvent(mainUIPanel.UrlField.text, false, false);
-
         }
 
         public void RunJavaScript(string js)
@@ -282,6 +281,11 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
                 _mainEngine.SendNavigateEvent("", false, true);
             else
                 _mainEngine.SendNavigateEvent("", true, false);
+        }
+
+        public void GoHome()
+        {
+            _mainEngine.SendNavigateEvent(InitialURL, false, false);
         }
 
         #endregion

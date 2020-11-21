@@ -4,9 +4,6 @@ using UnityEngine.UI;
 
 namespace SimpleWebBrowser
 {
-
-
-
     public class BrowserUI : MonoBehaviour
     {
         [SerializeField]
@@ -19,6 +16,10 @@ namespace SimpleWebBrowser
         public Button Back;
         [SerializeField]
         public Button Forward;
+        [SerializeField]
+        public Button Reload;
+        [SerializeField]
+        public Button Home;
 
 
         [HideInInspector] public bool KeepUIVisible = false;
@@ -44,6 +45,10 @@ namespace SimpleWebBrowser
                 Back = gameObject.transform.Find("Back").gameObject.GetComponent<Button>();
             if (Forward == null)
                 Forward = gameObject.transform.Find("Forward").gameObject.GetComponent<Button>();
+            if (Reload == null)
+                Reload = gameObject.transform.Find("Reload").gameObject.GetComponent<Button>();
+            if (Home == null)
+                Home = gameObject.transform.Find("Home").gameObject.GetComponent<Button>();
         }
 
 
@@ -56,6 +61,8 @@ namespace SimpleWebBrowser
             UrlField.textComponent.gameObject.GetComponent<CanvasRenderer>().SetAlpha(1.0f);
             Back.gameObject.SetActive(true);
             Forward.gameObject.SetActive(true);
+            Reload.gameObject.SetActive(true);
+            Home.gameObject.SetActive(true);
             Background.GetComponent<CanvasRenderer>().SetAlpha(1.0f);
         }
 
@@ -70,6 +77,8 @@ namespace SimpleWebBrowser
                     UrlField.textComponent.gameObject.GetComponent<CanvasRenderer>().SetAlpha(0.0f);
                     Back.gameObject.SetActive(false);
                     Forward.gameObject.SetActive(false);
+                    Reload.gameObject.SetActive(false);
+                    Home.gameObject.SetActive(false);
                     Background.GetComponent<CanvasRenderer>().SetAlpha(0.0f);
                 }
                 else
