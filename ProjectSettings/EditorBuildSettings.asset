@@ -5,5 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/SimpleWebBrowser/Demo/web_browser.unity
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0bde89afbc34b0f4ead4065a8eae2bed,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 21adf13aa3008ed4fa6cb09fefc5da87,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5f96a37a7e40bfd47b8bd58ecd6438c1,
+      type: 2}

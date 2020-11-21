@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637414526518445433
-    m_Hash: 1802991927
+      ticks: 637415615910471251
+    m_Hash: 821793329
   m_LockFileStatus:
     m_FilePath: C:/Users/saido/Desktop/UnityClient/UnityWebBroswerGroup9/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637414526812257239
-    m_Hash: 160337089
+      ticks: 637415615919011257
+    m_Hash: 3417261698
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -729,6 +729,247 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.xr.management@3.2.16
+      testable: 0
+      isDirectDependency: 1
+      version: 3.2.16
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.management@3.2.16
+      assetPath: Packages/com.unity.xr.management
+      name: com.unity.xr.management
+      displayName: XR Plugin Management
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Package to provide for simple management of XR plug-ins. Provides
+        help and management for loading, initialization, settings, and build support
+        for XR plug-ins.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.8
+        - 0.1.0-preview.12
+        - 1.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.0.0-preview.6
+        - 2.0.0-preview.9
+        - 2.0.0-preview.10
+        - 2.0.0-preview.13
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0-preview.24
+        - 2.0.0-preview.25
+        - 2.0.0-preview.26
+        - 3.0.1
+        - 3.0.2-preview.1
+        - 3.0.2-preview.2
+        - 3.0.3
+        - 3.0.4-preview.1
+        - 3.0.4-preview.3
+        - 3.0.4
+        - 3.0.5-preview.1
+        - 3.0.5
+        - 3.0.6-preview.2
+        - 3.0.6
+        - 3.1.0-preview.2
+        - 3.2.4
+        - 3.2.6
+        - 3.2.7
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11-preview.1
+        - 3.2.12
+        - 3.2.13
+        - 3.2.15
+        - 3.2.16
+        compatible:
+        - 3.2.16
+        verified: 3.2.16
+      dependencies:
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.2
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.4
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - xr
+      - sdk
+      - ar
+      - vr
+      - management
+      - build
+      - plugin
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637377029510000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+        revision: a502c5ffdef34dcbae312ceb5ab87af156125187
+        path: 
+    - packageId: com.unity.xr.oculus@1.5.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.5.0
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.oculus@1.5.0
+      assetPath: Packages/com.unity.xr.oculus
+      name: com.unity.xr.oculus
+      displayName: Oculus XR Plugin
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides display and input support for Oculus devices.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.5.0
+        compatible:
+        - 1.5.0
+        verified: 1.5.0
+      dependencies:
+      - name: com.unity.xr.management
+        version: 3.0.6
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.xr.management
+        version: 3.2.16
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.4
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - oculus
+      - xr
+      - vr
+      - virtual
+      - rift
+      - quest
+      - go
+      - xreditorsubsystem
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
+        revision: b29ffb6b91292563d4382e5d34c90d1bd9806c26
+        path: 
+    - packageId: com.unity.xr.windowsmr@3.4.0
+      testable: 0
+      isDirectDependency: 1
+      version: 3.4.0
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.windowsmr@3.4.0
+      assetPath: Packages/com.unity.xr.windowsmr
+      name: com.unity.xr.windowsmr
+      displayName: Windows XR Plugin
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides implementation and support for Unity XR SDK, allowing
+        integration and use of Windows Mixed Reality devices.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 3.4.0
+        compatible:
+        - 3.4.0
+        verified: 3.4.0
+      dependencies:
+      - name: com.unity.xr.management
+        version: 3.2.15
+      - name: com.unity.xr.interactionsubsystems
+        version: 1.0.1
+      - name: com.unity.xr.arsubsystems
+        version: 3.0.2
+      resolvedDependencies:
+      - name: com.unity.xr.management
+        version: 3.2.16
+      - name: com.unity.xr.legacyinputhelpers
+        version: 2.1.4
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      - name: com.unity.xr.interactionsubsystems
+        version: 1.0.1
+      - name: com.unity.xr.arsubsystems
+        version: 3.1.3
+      keywords:
+      - windows
+      - ar
+      - augmented
+      - xr
+      - reality
+      - xreditorsubsystem
+      - mixed
+      - hololens
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.windowsmr.git
+        revision: b02391f2123e22493d4215f281808853967f194f
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -2471,6 +2712,228 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.xr.interactionsubsystems@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
+      assetPath: Packages/com.unity.xr.interactionsubsystems
+      name: com.unity.xr.interactionsubsystems
+      displayName: XR Interaction Subsystems
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Contains definitions for Interaction Subsystems. This package
+        is a dependency of provider packages.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - subsystem
+      - XR
+      - Interaction
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
+        revision: e4d74ea2d737ed36976840f753a2817ef9e4e56d
+        path: 
+    - packageId: com.unity.xr.arsubsystems@3.1.3
+      testable: 0
+      isDirectDependency: 0
+      version: 3.1.3
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.arsubsystems@3.1.3
+      assetPath: Packages/com.unity.xr.arsubsystems
+      name: com.unity.xr.arsubsystems
+      displayName: AR Subsystems
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Contains definitions for AR Subsystems. This package is a dependency
+        of provider packages as well as AR Foundation
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 3.1.3
+        - 3.1.6
+        compatible:
+        - 3.1.3
+        - 3.1.6
+        verified: 3.1.6
+      dependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      resolvedDependencies:
+      - name: com.unity.subsystemregistration
+        version: 1.0.6
+      keywords:
+      - subsystem
+      - XR
+      - AR
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.arsubsystems.git
+        revision: e744c27d6544e7e7f1e625c453dde9eecea85745
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.4
+      testable: 0
+      isDirectDependency: 0
+      version: 2.1.4
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a monobehavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.1.4
+        compatible:
+        - 2.1.4
+        verified: 2.1.4
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: 658d345b94c9a7d015f00d946ef160193439a203
+        path: 
+    - packageId: com.unity.subsystemregistration@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: C:\Users\saido\Desktop\UnityClient\UnityWebBroswerGroup9\Library\PackageCache\com.unity.subsystemregistration@1.0.6
+      assetPath: Packages/com.unity.subsystemregistration
+      name: com.unity.subsystemregistration
+      displayName: Subsystem Registration
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Provides internal registration mechanism for standalone subsystems. 
+        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.6
+        - 1.1.0
+        compatible:
+        - 1.0.6
+        - 1.1.0
+        verified: 1.1.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - subsystem
+      - registration
+      - internal
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
+        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
         path: 
     - packageId: com.unity.ext.nunit@1.0.0
       testable: 0
