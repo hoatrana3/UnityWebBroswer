@@ -1,4 +1,4 @@
-### PACKAGE: UNITY WEB BROWSER IN VR
+# PACKAGE: UNITY WEB BROWSER IN VR
 ## Nhóm 9 - Đồ họa máy tính INT 3403 20 CLC 2021
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +42,6 @@ do đó, ứng dụng hiện tại chỉ hoạt động trên máy tính cài đ
 5. Tuy đã xây dựng bàn phím, nhưng hiện bàn phím chỉ tương tác được với thanh tìm kiếm, chưa thể tương tác được với Canvas render trang web trực tiếp.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-# XIN CHÂN THÀNH CẢM ƠN!
+### XIN CHÂN THÀNH CẢM ƠN!
 
 
