@@ -14,9 +14,6 @@ using Object = System.Object;
 
 namespace SimpleWebBrowser
 {
-
-
-
     public class BrowserEngine
     {
 
@@ -247,6 +244,11 @@ namespace SimpleWebBrowser
         {
             if (Initialized)
             {
+                if (!(url.StartsWith("http://") || url.StartsWith("https://")))
+                {
+                    url = "https://www.google.com/search?q=" + url;
+                }
+
                 GenericEvent ge = new GenericEvent()
                 {
                     Type = GenericEventType.Navigate,
@@ -356,6 +358,7 @@ namespace SimpleWebBrowser
                     Event = keyboardEvent,
                     Type = MessageLibrary.BrowserEventType.Keyboard
                 };
+                Debug.Log(ep);
 
                 _outCommServer.WriteMessage(ep);
             }
@@ -436,20 +439,11 @@ namespace SimpleWebBrowser
 
         #endregion
 
-        
-
-
-
      public void UpdateTexture()
         {
-
             if (Initialized)
             {
-
-
                 UpdateInitialized();
-
-
 
                 //execute run-once functions
                 if (_needToRunOnce)
@@ -463,15 +457,9 @@ namespace SimpleWebBrowser
                 //  yield return new WaitForSeconds(2);
                 if(_connected)
                 { 
-               
-                   
-                    
                         //Thread.Sleep(200); //give it some time to initialize
-
                         try
                         {
-
-
                             //init memory file
                             _mainTexArray = new SharedArray<byte>(_sharedFileName);
 
@@ -482,10 +470,7 @@ namespace SimpleWebBrowser
                             //SharedMem and TCP exceptions
                             Debug.Log("Exception on init:" + ex.Message + ".Waiting for plugin server");
                         }
-
                 }
-               
-
             }
         }
 

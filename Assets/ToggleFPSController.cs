@@ -20,12 +20,12 @@ public class ToggleFPSController : MonoBehaviour
         m_FirstPersonController = GetComponent<FirstPersonController>();
         m_FirstPersonCharacter = transform.GetChild(0).gameObject;
         m_StartPosition = transform.position;
-        m_StartRotation = new Quaternion(0,0,0,1);
+        m_StartRotation = new Quaternion(0, 0, 0, 1);
     }
 
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Q))
+        if (Input.GetKeyUp(KeyCode.Q) && Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.LeftControl))
         {
             m_IsEnabled = !m_IsEnabled;
             StartDrift();

@@ -25,6 +25,7 @@ namespace SimpleWebBrowser
 
 
         public string InitialURL = "http://www.google.com";
+        private string CurrentURL = "";
 
         public bool EnableWebRTC = false;
 
@@ -37,7 +38,6 @@ namespace SimpleWebBrowser
         #endregion
 
 
-
         [Header("UI settings")]
         [SerializeField]
         public BrowserUI mainUIPanel;
@@ -45,7 +45,7 @@ namespace SimpleWebBrowser
         public bool KeepUIVisible = false;
 
         public bool UIEnabled = true;
-       public Camera MainCamera;
+        public Camera MainCamera;
 
         [Header("Dialog settings")] [SerializeField] public bool DialogEnabled = false;
 
@@ -87,13 +87,7 @@ namespace SimpleWebBrowser
 
         private Material _mainMaterial;
 
-
-
-
-
         private BrowserEngine _mainEngine;
-
-
 
         private bool _focused = false;
 
@@ -111,19 +105,18 @@ namespace SimpleWebBrowser
             {
                 if (DialogCanvas == null)
                     DialogCanvas = gameObject.transform.Find("MessageBox").gameObject.GetComponent<Canvas>();
-            if (DialogText == null)
-                DialogText = DialogCanvas.transform.Find("MessageText").gameObject.GetComponent<Text>();
-            if (OkButton == null)
-                OkButton = DialogCanvas.transform.Find("OK").gameObject.GetComponent<Button>();
-            if (YesButton == null)
-                YesButton = DialogCanvas.transform.Find("Yes").gameObject.GetComponent<Button>();
-            if (NoButton == null)
-                NoButton = DialogCanvas.transform.Find("No").gameObject.GetComponent<Button>();
-            if (DialogPrompt == null)
-                DialogPrompt = DialogCanvas.transform.Find("Prompt").gameObject.GetComponent<InputField>();
-
-    }
-  }
+                if (DialogText == null)
+                    DialogText = DialogCanvas.transform.Find("MessageText").gameObject.GetComponent<Text>();
+                if (OkButton == null)
+                    OkButton = DialogCanvas.transform.Find("OK").gameObject.GetComponent<Button>();
+                if (YesButton == null)
+                    YesButton = DialogCanvas.transform.Find("Yes").gameObject.GetComponent<Button>();
+                if (NoButton == null)
+                    NoButton = DialogCanvas.transform.Find("No").gameObject.GetComponent<Button>();
+                if (DialogPrompt == null)
+                    DialogPrompt = DialogCanvas.transform.Find("Prompt").gameObject.GetComponent<InputField>();
+            }
+        }
 
         void Start()
         {
@@ -165,10 +158,6 @@ namespace SimpleWebBrowser
             if(UIEnabled)
             mainUIPanel.MainCanvas.worldCamera = MainCamera;
 
-
-
-
-
               // _mainInput = MainUrlInput.GetComponent<Input>();
             if (UIEnabled)
             {
@@ -180,7 +169,7 @@ namespace SimpleWebBrowser
             //attach dialogs and querys
             _mainEngine.OnJavaScriptDialog += _mainEngine_OnJavaScriptDialog;
             _mainEngine.OnJavaScriptQuery += _mainEngine_OnJavaScriptQuery;
-_mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
+            _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
 
             if (DialogEnabled)
             {
@@ -188,6 +177,7 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
                 DialogCanvas.gameObject.SetActive(false);
             }
 
+            CurrentURL = InitialURL;
         }
 
         private void _mainEngine_OnPageLoaded(string url)
@@ -283,6 +273,11 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
                 _mainEngine.SendNavigateEvent("", true, false);
         }
 
+        public void Reload()
+        {
+            _mainEngine.SendNavigateEvent(CurrentURL, false, false);
+        }
+
         public void GoHome()
         {
             _mainEngine.SendNavigateEvent(InitialURL, false, false);
@@ -336,9 +331,6 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
             }
 
         }
-
-
-
 
         void OnMouseUp()
         {
@@ -479,6 +471,11 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
 
         #endregion
 
+        public BrowserEngine getEngine()
+        {
+            return _mainEngine;
+        }
+
         private void FixedUpdate()
         {
             _mainEngine.PushMessages(); //
@@ -512,8 +509,7 @@ _mainEngine.OnPageLoaded += _mainEngine_OnPageLoaded;
             {
                 _setUrl = false;
                 if(UIEnabled)
-                mainUIPanel.UrlField.text = _setUrlString;
-
+                mainUIPanel.UrlField.text = CurrentURL = _setUrlString;
             }
 
 if (UIEnabled)
@@ -529,10 +525,6 @@ if (UIEnabled)
                 }
                 ProcessKeyEvents();
              }
-
-
-
-
             }
 
 
